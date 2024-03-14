@@ -19,3 +19,14 @@
 */
 
 // Write your code here. SUCCESS
+
+document.querySelector("#paragraph").innerHTML = "Hello World";
+
+let imageContainer = document.getElementById("imageContainer");
+let img = document.createElement('img');
+            img.src = 'image.jpg';
+            document.getElementById('imageContainer').appendChild(img);
+
+
+
+
