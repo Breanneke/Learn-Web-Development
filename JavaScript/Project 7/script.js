@@ -25,8 +25,5 @@ document.querySelector("#paragraph").innerHTML = "Hello World";
 let imageContainer = document.getElementById("imageContainer");
 let img = document.createElement('img');
             img.src = 'image.jpg';
-            document.getElementById('imageContainer').appendChild(img);
-
-
-
-
+            document.getElementById('imageContainer').appendChild(img)
+document.querySelector('#my-name').innerHTML = "Brian Ochieng"
